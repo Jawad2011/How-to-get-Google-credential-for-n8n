@@ -76,5 +76,133 @@ Mark it
 <img width="1919" height="912" alt="Image" src="https://github.com/user-attachments/assets/d345c0c2-d33d-461d-b80c-1c3c3086a107" />
 
 
+Step 15:
+Click "Submit"
+<img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/846bfeb1-d072-4b09-b05b-d301f7b23d18" />
 
-### [This repository is under construction] ###
+After you submit, you will see ths screen:
+<img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/d8d86058-4388-47e1-bb21-83fcf339146b" />
+
+
+Step 16:
+click "Create OAuth client"
+<img width="1918" height="908" alt="Image" src="https://github.com/user-attachments/assets/920d23c8-55bd-4f8a-a20c-caf9f020e7a9" />
+
+
+Step 17:
+Select "Web application" from "Application type"
+<img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/7f5969a1-a68a-4a07-9229-9cfe1b573fae" />
+
+
+Step 18: 
+Type any name you want
+<img width="1919" height="912" alt="Image" src="https://github.com/user-attachments/assets/8c5a38e0-39f5-4340-8980-8fbedc8d649c" />
+
+
+At this stage, We need to go to n8n.
+
+
+Step 19:
+Log into your n8n and select credentials. Then, click on "Create credential"
+<img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/4035fdf9-514f-4b2f-99d4-5d4416cd5239" />
+
+
+Step 20:
+Now type "Google OAuth2 API" and select "Google OAuth2 API"
+<img width="1919" height="907" alt="Image" src="https://github.com/user-attachments/assets/1fc7ea4c-eacf-4ac8-a50a-65010ea104e5" />
+
+
+Step 21:
+Click "Continue"
+<img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/685cd47b-b983-47a4-94a0-fa8285a58b36" />
+
+
+After that you will stumble upon this page:
+<img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/03919c74-0f16-4f06-a0d0-5231007b3bcc" />
+
+In this part, you must focus. Everyone gets confused at this stage.
+
+1. Redirect URL: you will use this URL. This URL will be in https://example.com/rest/oauth2-credential/callback format. Here example.com is the name of the domain. You must understand it because You will need it to generate "Client ID" and "Client Secret" using this link.
+
+2. Client ID: This will be generated after creating "OAuth Client ID"
+
+3. Client Secret:  This will be generated after creating "OAuth Client ID"
+
+Step 22:
+In the box number 1 you will put only https://example.com or https://example.com:xxxx (if the port is mentioned in the link given by n8n)
+
+In the box number 2 you will just copy and paste the link. 
+
+
+<img width="1919" height="912" alt="Image" src="https://github.com/user-attachments/assets/aac2012e-5104-4f96-86c7-fe329615b8e7" />
+
+
+Note: example.com is not a real domain. You will just paste the part before /rest/oauth2-credential/callback in the box number 1. You must be exttra careful in this area.
+
+
+Step 23:
+Click "Create"
+<img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/3d3e0780-aa46-44c1-a37d-41a1af60f014" />
+
+
+After that your "Client ID" and "Client secret" will be generated. Save that "Client ID" and Client secret" for future purposes. Now we need to go back to Google Cloud Console.
+
+
+Step 24:
+Copy and paster your "Client ID" and "Client secret" into their boxes in n8n.
+<img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/38580ba3-4301-4c8c-965a-dcd01ab2f40c" />
+
+
+Step 25:
+Click on "Audience"
+<img width="1919" height="909" alt="Image" src="https://github.com/user-attachments/assets/96d34ba8-dacb-4a02-9e08-84c45b358b51" />
+
+
+Step 26:
+Scroll down and click on "Add users"
+<img width="1919" height="912" alt="Image" src="https://github.com/user-attachments/assets/f5aa8dd2-ef75-4961-93f1-768e9d1e75fb" />
+
+
+Step 27:
+In this box, type the e-mail accounts that you will use to access Google services in n8n. You can add upto 100 e-mail accounts. the e-mail accounts must end with @gmail
+<img width="1919" height="915" alt="Image" src="https://github.com/user-attachments/assets/a6e81702-4e23-417c-b785-fee2d60c1bf8" />
+
+
+Step 28: 
+Type the e-mails and press enter. After that click on "Save"
+<img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/113adcd0-0121-4dfd-b6f8-91d3b435016f" />
+
+
+If your e-mail shows up here. That means your e-mail has been saved propely.
+<img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/1b8e2f5c-97f7-4c6c-a2ca-642a1a7a22d9" />
+
+Step 29:
+Go to your n8n and scroll down. Then, click on "Sign in with Google"
+<img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/a97886c0-aac0-40d4-9c10-985dae88c6db" />
+
+
+Then, sign in with the account that you given as the test user in step 27.
+
+
+Step 30:
+During signing in, you will see something like below. That is not a problem. Just click "Continue"
+<img width="1919" height="971" alt="Image" src="https://github.com/user-attachments/assets/ed6db268-f24d-4147-8eea-b1fd363ac62a" />
+
+
+Step 31:
+At one stage, you will get this option. Just checkmark "Select all"
+
+<img width="290" height="444" alt="Image" src="https://github.com/user-attachments/assets/b26fef0a-0a13-4347-83a2-ffc4db6d1a2e" />
+
+
+
+
+After signing in, n8n will test your connection and if they that the connection is okay, that means you succesfully connected n8n and google credential. You can later use this credential to use other Google services.
+
+N.B. In this tutorial, I used G-mail but everything is also same in other services. 
+
+
+
+
+
+If you have any question, just ask on discussions. I tried to simplify this process as much as I can. If this guide helped you, please give it a ⭐ to help others find it!
