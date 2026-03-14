@@ -1,5 +1,9 @@
 # How-to-get-Google-credential-for-n8n
-
+![Status](https://img.shields.io/badge/Status-Complete-green?style=for-the-badge)
+![Category](https://img.shields.io/badge/Category-Tutorial-blue?style=for-the-badge)
+![Tool](https://img.shields.io/badge/Tool-n8n-FF6D5B?style=for-the-badge&logo=n8n&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![License](https://img.shields.io/github/license/Jawad2011/How-to-get-Google-credential-for-n8n?style=for-the-badge)
 ### Disclaimer: This is for educational/learning purposes only. It cannot be used for business purposes. ###
   Hello, all. In this repo, we will know how to get Google credentials from Google cloud console for n8n. You will set up only once and can use it multiple times in n8n. This process is slightly complex but I will try to break it down step-by-step. So, let's start:
 
