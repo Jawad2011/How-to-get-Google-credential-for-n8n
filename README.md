@@ -1,7 +1,7 @@
 # How-to-get-Google-credential-for-n8n
 
 ### Disclaimer: This is for educational/learning purposes only. It cannot be used for business purposes. ###
-  Hello, all. In this repo, we will know how to get Google credentials from Google cloud console for n8n. You will set up only once and can use it multiple times n n8n. This process is slightly complex but i will try to break it down step-by-step. So, let's start:
+  Hello, all. In this repo, we will know how to get Google credentials from Google cloud console for n8n. You will set up only once and can use it multiple times in n8n. This process is slightly complex but I will try to break it down step-by-step. So, let's start:
 
 Step 1: 
 Search "Google Cloud Console"
@@ -22,7 +22,7 @@ Click "new project" from here.
 
 
 Step 5:
-choose any name from here.
+choose any name and type it here
 <img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/16241c95-afa0-490a-9812-c704f9c78421" />
 
 
@@ -37,7 +37,7 @@ Select the project you created.
 
 
 Step 8:
-Click on this three line ico on the upper left side.
+Click on this three line icon on the upper left side.
 <img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/9f9765c4-22d0-405c-8363-f1bf9de46a82" />
 
 
@@ -45,4 +45,34 @@ Step 9:
 select "OAuth consent screen"
 <img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/9d37a40d-b6ee-417f-9567-1df1197b424a" />
 
-[This repo is under construction]
+
+Step 10:
+Click here.
+<img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/188cb26b-2b85-455e-b36b-3d46fd84049a" />
+
+
+
+Step 11: 
+Fill the details
+1. Name it "n8n"
+2. put the e-mail where Google will contact with you. It is recommended that you use your own g-mail account
+<img width="1917" height="912" alt="Image" src="https://github.com/user-attachments/assets/28f34516-e16b-496b-ab84-38d4b9ff3a28" />
+
+
+
+Step 12: 
+Select "External"
+<img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/c2b12993-84f9-4b3c-b207-9e1310c556fc" />
+
+
+Step 13:
+Put an E-mail address. You may use the e-mail address given to the step 11. You can add more than one e-mails too.
+<img width="1919" height="908" alt="Image" src="https://github.com/user-attachments/assets/0c80873e-a6f9-44ac-8e60-6f3caa5c366f" />
+
+
+
+Step 14: 
+Mark it
+<img width="1919" height="912" alt="Image" src="https://github.com/user-attachments/assets/d345c0c2-d33d-461d-b80c-1c3c3086a107" />
+
+[This repository is under construction]
