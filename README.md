@@ -168,7 +168,7 @@ Scroll down and click on "Add users"
 
 
 Step 27:
-In this box, type the e-mail accounts that you will use to access Google services in n8n. You can add upto 100 e-mail accounts. the e-mail accounts must end with @gmail
+In this box, type the e-mail accounts that you will use to access Google services in n8n. You can add upto 100 e-mail accounts. the e-mail accounts must end with @gmail.com
 <img width="1919" height="915" alt="Image" src="https://github.com/user-attachments/assets/a6e81702-4e23-417c-b785-fee2d60c1bf8" />
 
 
@@ -185,15 +185,29 @@ Go to your n8n and scroll down. Then, click on "Sign in with Google"
 <img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/a97886c0-aac0-40d4-9c10-985dae88c6db" />
 
 
+Step 30:
+Here you have to use the API link of that specific service you want to use. Some Example:
+     
+``` https://mail.google.com/ ```
+     
+``` https://www.googleapis.com/auth/drive ```
+     
+``` https://www.googleapis.com/auth/spreadsheets ```
+     
+``` https://www.googleapis.com ```
+
+
+<img width="1357" height="738" alt="Image" src="https://github.com/user-attachments/assets/c5dda6da-ef51-4120-99a3-750b4aeba92e" />
+
 Then, sign in with the account that you given as the test user in step 27.
 
 
-Step 30:
+Step 31:
 During signing in, you will see something like below. That is not a problem. Just click "Continue"
 <img width="1919" height="971" alt="Image" src="https://github.com/user-attachments/assets/ed6db268-f24d-4147-8eea-b1fd363ac62a" />
 
 
-Step 31:
+Step 32:
 At one stage, you will get this option. Just checkmark "Select all"
 
 <img width="290" height="444" alt="Image" src="https://github.com/user-attachments/assets/b26fef0a-0a13-4347-83a2-ffc4db6d1a2e" />
